@@ -2,35 +2,80 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Landing Page Project</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Landing Scapes</title>
 </head>
 
 <body>
-    <div class="container-header">
-        <header>
-            <div class="logo">Lorem Ipsum</div>
+    <header>
+        <div class="logo">Landview</div>
+        <div class="head-links">
+            <a href="#home" alt="Home">Home</a>
+            <a href="#contact" alt="Contact">Contact</a>
+            <a href="#about" alt="About">About</a>
+        </div>
+    </header>
 
-            <div class="head-links">
-                <a href="#home" alt="Home">Home</a>
-                <a href="#contact" alt="Contact">Contact</a>
-                <a href="#about" alt="About">About</a>
-            </div>
-        </header>
-
+    <main class="container-header">
         <div class="info">
-            <div class="content">
+            <div class="info__left">
                 <h1>Landscapes</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Purus in mollis nunc sed.</p>
+                <p>
+                    The soul of a landscape, the spirits of the elements, the genius of
+                    every place will be revealed to a loving view of nature.
+                </p>
                 <button class="button1">Sign up</button>
             </div>
-            <img src="images/pexels-landscape.jpeg" alt="A beautiful landscape">
+            <div class="info__right">
+                <img src="images/pexels-landscape.jpeg" alt="A beautiful landscape" />
+            </div>
         </div>
-        
+    </main>
+
+    <section>
+        <div class="info-img-title">
+            <h2>Seasons...</h2>
+        </div>
+        <ul id="img-list">
+            <li><img src="./images/spring.jpeg" /><br />Spring</li>
+            <li><img src="./images/summer.jpeg" /><br />Summer</li>
+            <li><img src="./images/winter.jpeg" /><br />Winter</li>
+            <li><img src="./images/autumn.jpeg" /><br />Autumn</li>
+        </ul>
+    </section>
+
+    <section>
+        <div id="quote-container">
+            <p class="quote">
+                It is not so much for its beauty that the forest makes a claim upon
+                men’s hearts, as for that subtle something, that quality of air, that
+                emanation from old trees, that so wonderfully changes and renews a
+                weary spirit.
+            </p>
+            <p class="quote-author">—Robert Louis Stevenson</p>
+        </div>
+    </section>
+
+    <section>
+        <div id="signup-container">
+            <div class="signup-text">
+                <p class="signup-notice">Get ready!</p>
+                <p class="signup-more">Start receiving our seasonal wallpapers by signing up</p>
+            </div>
+            <div class="button2">
+                <button>Sign up</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <span>Copyright - The Odin Project - psuar92 - 2022</span>
+    </footer>
 </body>
 
 </html>
